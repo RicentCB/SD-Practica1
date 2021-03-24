@@ -1,0 +1,15 @@
+section#first-slide ul{
+    margin-bottom: 40px;
+}
+section#first-slide p{
+    font-size: 1.2em;
+}
+
+section#main-content {
+    height: 100vh;
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
