@@ -57,3 +57,13 @@ section#main-content .clock h3{
     transform: scale(1.2);
     transition: all 0.25s ease-in;
 }
+#main-content .clock .content-info{
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 50px);
+    align-items: center;
+    justify-content: center;
+}
+#main-content .clock .content-info h1{
+    font-size: 6rem;
+}
